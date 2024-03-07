@@ -10,8 +10,10 @@
   <body>
     <a-scene renderer="antialias: false" stats>
       <a-entity id="rig"
+      movement-controls="controls: keyboard,gamepad,touch; speed: 0.5; fly: true">
+      <!-- <a-entity id="rig"
           movement-controls="controls: keyboard,gamepad,nipple; speed: 0.5; fly: true"
-          nipple-controls="mode: static; lookJoystickEnabled: false; moveJoystickPosition: right">
+          nipple-controls="mode: static; lookJoystickEnabled: false; moveJoystickPosition: right"> -->
         <!-- <a-entity camera look-controls="enabled: true" orbit-controls="target: 0 2 0; minDistance: -10000; initialPosition: 0 0 0; rotateSpeed: 0.5"></a-entity> -->
         <a-entity camera position="0 1.6 0" look-controls="enabled: true"></a-entity>
       </a-entity>
